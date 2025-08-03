@@ -1,0 +1,59 @@
+.header {
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+
+  width: 90%;
+  padding: 0.5rem 1.5rem;
+  min-height: 60px;
+
+  background-color: #151414;
+  border-radius: 2rem;
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Logo stays left, absolutely positioned */
+.logo-area {
+  position: absolute;
+  left: 1.5rem;
+}
+
+.logo {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* Center nav bar */
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #ff08ce;
+}
+
+body {
+  background-color: #000000;
+  color: #fff;
+}

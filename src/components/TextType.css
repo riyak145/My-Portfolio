@@ -1,0 +1,23 @@
+/* src/components/TextType.css */
+
+.text-type {
+  display: inline-block;
+  white-space: pre-wrap;
+  font-family: monospace;
+  font-size: 2rem;
+  color: hotpink;
+}
+
+.text-type__cursor {
+  margin-left: 0.25rem;
+  display: inline-block;
+  opacity: 1;
+  animation: blink 1s step-end infinite;
+  color: white;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

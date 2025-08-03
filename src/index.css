@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #000;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+}

@@ -1,0 +1,22 @@
+/* src/components/ShinyText.css */
+
+.shiny-text {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background: linear-gradient(90deg, #333, #fff, #333);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: shine 15s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 200% center;
+  }
+  100% {
+    background-position: -200% center;
+  }
+}
