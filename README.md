@@ -7,7 +7,6 @@ Showcases projects, skills, experience, and includes a contact form.
 - Projects showcase with descriptions and links
 - Technologies section highlighting skills
 - Contact form integrated for messages
-- Responsive design and dark theme
 
 ## Technologies Used
 - React
