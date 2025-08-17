@@ -9,6 +9,7 @@ import Technologies from "./Technologies";
 import ConnectSection from "./ConnectSection";
 import Experience from "./Experience";
 import ContactForm from "./ContactForm";
+import Footer from "./Footer";
 
 const Main = () => {
   return (
@@ -52,9 +53,11 @@ const Main = () => {
 
 <ConnectSection/>
 <ContactForm/>
+<Footer/>
       </section>
     </main>
   );
 };
 
 export default Main;
+  

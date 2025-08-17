@@ -5,11 +5,18 @@
   padding: 1rem 0;
   position: relative;
 }
+.tech-marquee-container {
+  overflow: hidden;
+  width: 100%;
+  background: #000;
+  padding: 1rem 0;
+  position: relative;
+}
 
 .tech-marquee-track {
   display: flex;
   width: fit-content;
-  animation: scroll 20s linear infinite;
+  animation: scroll 40s linear infinite; /* increased time for smooth scroll */
 }
 
 @keyframes scroll {
@@ -17,7 +24,7 @@
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-33.33%);
   }
 }
 
@@ -49,7 +56,6 @@
   color: #000;
   font-weight: 300;
 }
-
 
 @keyframes scroll {
   0% {

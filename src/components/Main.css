@@ -12,7 +12,7 @@
 .hero-section {
   width: 100%;             /* full width */
   margin: 0;               /* remove centering */
-  padding-left: 1rem;      /* 🔄 adjust left padding only if needed */
+  padding-left: 1rem;      
   text-align: left;
 }
 
