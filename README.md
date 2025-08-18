@@ -13,7 +13,7 @@ Showcases projects, skills, experience, and includes a contact form.
 - Vite
 - CSS3 / Flexbox / Grid
 - JavaScript (ES6+)
-- Reactbits
+- Reactbits 
 
 ## Folder Structure
 /src
